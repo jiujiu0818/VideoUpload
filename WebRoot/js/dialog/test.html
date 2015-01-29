@@ -1,0 +1,71 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: lilanyou
+  Date: 2010-5-24
+  Time: 14:40:16
+--%>
+<%@ page contentType="text/html;charset=GBK" language="java" %>
+<html>
+<link type="text/css" href="lhgdialog.css" rel="stylesheet"/>
+<script type="text/javascript" src="lhgcore.min.js"></script>
+<script type="text/javascript" src="lhgdialog.js"></script>
+<script language="javascript">
+  J(function(){
+    J('#a').dialog({ title: '示例', cover: true, rang: true, html: '<p>lhgdialog</p>' });
+	J('#b').dialog({ id: 'd1', title: '外部链接', page: 'http://www.baidu.com', link: true, btns: false, width: 700, height: 500 });
+	J('#c').dialog({ id: 'd2', title: '内部链接', page: '_content/01.html' });
+	J('#d').dialog({ id: 'd3', title: '随屏滚动', html: '<p align="center">lhgdialog</p>', fixed:true, top:'bottom', left:'right', width: 200, height: 100, btns: false });
+	J('#e').dialog({ id: 'd4', page: '_content/02.html' });
+	J('#f').dialog({ id: 'd5', page: '_content/03.html', cover: true });
+	J('#g').dialog({ id: 'd6', page: '_content/04.html' });
+
+	var resize = function()
+	{
+	    J('#inp',dialog.dlg).click(function(){
+	        dialog.reDialogSize( 300, 200 );
+	    });
+	};
+	var dialog = J('#h').dialog({ id: 'd7', html: '<input id="inp" type="button" value="改变窗口大小"/>', cusfn: resize });
+
+	var dialog1 = J('#i').dialog({
+	    id: 'd8',
+		html: '<p>lhgdialog</p>',
+		cusfn: function()
+		{
+		    J('#xbtn',dialog1.dlg).click(function(){
+			    alert( '此按钮的函数已被改变，不再关闭窗口了！' );
+			});
+			dialog1.addBtn( 'cancel', '取消', dialog1.cancel );
+		}
+	});
+
+	ShowIt();
+});
+
+function ShowIt()
+{
+	var h2 = J('h2');
+	for( var i = 0, l = h2.length; i < l; i++ )
+	{
+	    h2[i].cusIndex = i;
+		J(h2[i]).bind( 'click', function(){
+		    setTabs( this.cusIndex );
+		});
+	}
+}
+
+function setTabs(n)
+{
+    var tab = J('.content');
+	for( var i = 0, l = tab.length; i < l; i++ )
+		tab[i].style.display = (i == n) ? '' : 'none';
+}
+
+function test()
+{
+    J('#a').dialog({ title: '示例', cover: true, rang: true, html: '<p>lhgdialog</p>' });
+}
+</script>
+  <head><title>Simple jsp page</title></head>
+  <body><input id="a" type="button" value="test"></body>
+</html>

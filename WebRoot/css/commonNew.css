@@ -1,0 +1,55 @@
+body {margin:0 0 0 0; padding:0 0 0 0;overflow:auto;}
+h2 {
+	font-family: "Î¢ÈíÑÅºÚ", "ËÎÌå";
+	font-size: large;
+	text-align: center;
+	background-image:url(image/icon_repeat_short.png);
+	background-repeat:repeat;
+	color: white;
+	height:28px;
+margin:0 0 0 0; padding:0 0 0 0;
+}
+.tdTitile {
+	width: 100%;
+	font-family: "Î¢ÈíÑÅºÚ", "ËÎÌå";
+	font-size: medium;
+	color: #FFF;
+	background-color: #5CACE7;
+	text-align: center;
+}
+.liListDetails{
+	text-align:center;
+	 font-size:12px;
+	 height:25px;
+	 color:gray;
+	 list-style-type : none;
+ }
+ h1 {
+	font-family: "Î¢ÈíÑÅºÚ", "ËÎÌå";
+	font-size: x-large;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+margin:0 0 0 0; padding:0 0 0 0;
+}
+
+.main_top_btn {
+    background-image: url(./image/button-unclick.gif);
+    height: 26px;
+    width: 76px;
+    line-height:26px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#121212;
+}
+
+
+.main_top_btn_mouseOver {
+    background-image: url(./image/button-mouseover.gif);
+    height: 26px;
+    width: 76px;
+    line-height:26px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#FFF;
+}

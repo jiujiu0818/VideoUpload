@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/video.do" location="50,50" dimension="215,104" />
+  <StrutsActivity path="/video/addVideo.jsp" location="350,50" dimension="151,53" />
+  <StrutsActivity path="/video/videoList.jsp" location="650,50" dimension="145,53" />
+  <StrutsTransition id="/video.do,videoList,/video/videoList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="265,118" />
+      <AbsolutePoint location="722,118" />
+      <AbsolutePoint location="722,103" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/video.do,addVideo,/video/addVideo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="265,76" />
+      <AbsolutePoint location="350,76" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/video.do,queryVideos,/video.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="157,154" />
+      <AbsolutePoint location="157,229" />
+      <AbsolutePoint location="425,229" />
+      <AbsolutePoint location="425,148" />
+      <AbsolutePoint location="265,148" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

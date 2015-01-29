@@ -1,0 +1,505 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*初始化*/
+body {
+    background-repeat: no-repeat;
+    background: url(../../../jdy/img/SecondPageRightBackground.png );
+}
+
+img {
+    border:none;
+}
+a {
+    text-decoration:none;
+}
+input {
+    padding:0;
+    margin:0;
+}
+/*初始化*/
+.top {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:160px;
+}
+/*字体*/
+.font12blue {
+    font:normal 12px Tahoma, SimSun;
+    color:black;
+    text-decoration:none;
+}
+.font14blue {
+    font:normal 14px Tahoma, SimSun;
+    color:black;
+    text-decoration:none;
+}
+.font12black {
+    font:normal 12px Tahoma, SimSun;
+    color:#320303;
+    text-decoration:none;
+}
+.font12red_b {
+    font:bold 12px Tahoma, SimSun;
+    color:#FF0000;
+    text-decoration:none;
+}
+.fontcolorgray {
+    color:#63030c;
+}
+/*字体*/
+/*TD位置*/
+.tdalignleft, .tdalignleft td {
+    text-align:left;
+}
+.tdaligncenter, .tdaligncenter td {
+    text-align:center;
+}
+.tdalignright, .tdalignright td {
+    text-align:right;
+}
+/*TD位置*/
+/*表格框线*/
+.mytableblue {
+    border-collapse:collapse;
+    border-top:1px solid #09F;
+    border-right:1px solid #09F;
+}
+.mytableblue td {
+    padding:2px;
+    border-bottom:1px solid #09F;
+    border-left:1px solid #09F;
+}
+.mytablegray {
+    border-collapse:collapse;
+    border-top:1px solid #CCC;
+    border-right:1px solid #CCC;
+}
+.mytablegray td {
+    padding:2px;
+    border-bottom:1px solid #CCC;
+    border-left:1px solid #CCC;
+}
+.mytablenoborder {
+    border-collapse:collapse;
+    border:none;
+}
+.mytablenoborder td {
+    border:none;
+    padding:2px;
+}
+/*表格框线*/
+.gridviewheader {
+    font:normal 14px SimSun;
+    color:#FFF;
+    background:url(../images/gridviewtitle.jpg) repeat-x;
+}
+.gridviewheadertall {
+    font:normal 14px SimSun;
+    color:#FFF;
+    background:url(../images/gridviewtitle1.jpg) repeat-x;
+}
+.gridviewheadertall12 {
+    font:normal 12px SimSun;
+    color:#FFF;
+    background:url(../images/gridviewtitle1.jpg) repeat-x;
+}
+.gridviewheader1 {
+    font:normal 12px SimSun;
+    color:#FFF;
+    background:url(../images/gridviewtitle1.jpg) repeat-x;
+}
+.gridviewfooter {
+    background:#DDD;
+}
+.myh2 {
+    padding:0;
+    margin:0;
+    font:bold 20px SimHei;
+    line-height:35px;
+    color:#FFF;
+    background:url(../images/title.jpg) repeat-x;
+}
+.tralternatelybg {
+    background:#F6F6F6;
+}
+.tdbgcolor {
+    background:#F6F6F6;
+}
+.gridviewend td {
+    font-weight:bold;
+}
+.pageinput {
+    border:1px solid #9C9A9C;
+    width:25px;
+    height:16px;
+}
+.tablewrapper {
+    width:1000px;
+    margin:0 auto;
+}
+/*按钮*/
+.btn_del {
+    cursor:pointer;
+    width:40px;
+    height:16px;
+    border:none;
+    background:url(../images/del.gif);
+}
+.btn_copy {
+    cursor:pointer;
+    width:40px;
+    height:16px;
+    border:none;
+    background:url(../images/copy.gif);
+}
+.btn_plus {
+    cursor:pointer;
+    width:80px;
+    height:25px;
+    border:none;
+    background:url(../images/btn_plus.gif);
+}
+.btn_return {
+    cursor:pointer;
+    width:80px;
+    height:25px;
+    border:none;
+    background:url(../images/btn_return.gif);
+}
+.btn_sub {
+    cursor:pointer;
+    width:80px;
+    height:25px;
+    border:none;
+    background:url(../images/submit.gif);
+}
+.btn6025, .btn8025, .btn10025 {
+    border:none;
+    cursor:pointer;
+    font:bold 14px Tahoma, SimSun;
+    color:#FFF;
+}
+.btn6025 {
+    width:60px;
+    height:25px;
+    background:url(../images/btnbg6025.gif) no-repeat;
+}
+.btn8025 {
+    width:80px;
+    height:25px;
+    background:url(../images/btnbg8025.gif) no-repeat;
+}
+.btn10025 {
+    width:100px;
+    height:25px;
+    background:url(../images/btnbg10025.gif) no-repeat;
+}
+.btn4016, .btn6016, .btn8016 {
+    border:none;
+    cursor:pointer;
+    font:normal 12px Tahoma, SimSun;
+    color:#666666;
+}
+.btn4016 {
+    width:40px;
+    height:16px;
+    background:url(../images/btnbg4016.gif) no-repeat;
+}
+.btn6016 {
+    width:60px;
+    height:16px;
+    background:url(../images/btnbg6016.gif) no-repeat;
+}
+.btn8016 {
+    width:80px;
+    height:16px;
+    background:url(../images/btnbg8016.gif) no-repeat;
+}
+/*按钮*/
+
+.trmouseover {
+    background:#FFFF99;
+}
+/*首页首页首页首页首页*/
+.mytableindex {
+    border-top:2px solid #FFF;
+    border-right:2px solid #FFF;
+}
+.mytableindex td {
+    vertical-align:top;
+    padding:2px;
+    border-bottom:2px solid #FFF;
+    border-left:2px solid #FFF;
+    font:normal 12px Tahoma, SimSun;
+    color:#660000;
+    line-height:18px;
+}
+.mytableindex a {
+    color:#ae1313;
+}
+.mytablethinwhite {
+    border-top:1px solid #FFF;
+    border-right:1px solid #FFF;
+}
+.mytablethinwhite td {
+    vertical-align:top;
+    padding:2px;
+    border-bottom:1px solid #FFF;
+    border-left:1px solid #FFF;
+    font:normal 12px Tahoma, SimSun;
+}
+.indextitle {
+}
+.indextitle td {
+    background:url(../images/gridviewtitleindex.jpg) no-repeat;
+    font:bold 14px SimSun;
+    color:#FFF;
+    padding:5px 0 5px 35px;
+}
+.indexcontent {
+    background:#F8F8F8;
+}
+.indexbottom {
+    background:#DDD;
+}
+.indexbottom td a {
+    font-weight:bold;
+    color:#3b0407;
+}
+.innertitle {
+    background:url(../images/innertitle.gif) repeat-x;
+}
+.innertitle td {
+    font:bold 12px SimSun;
+    color:#3c1303;
+    padding:4px 0;
+}
+/*首页首页首页首页首页*/
+/*滤镜滤镜滤镜滤镜滤镜*/
+.btn {
+    BORDER-RIGHT: #7b9ebd 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP:#7b9ebd 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient( GradientType = 0, StartColorStr = #ffffff, EndColorStr = #09F7C7 );
+    BORDER-LEFT: #7b9ebd 1px solid;
+    CURSOR: pointer;
+    COLOR: black;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #7b9ebd 1px solid;
+}
+.btn_2 {
+    BORDER-RIGHT: #002D96 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP:#002D96 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient( GradientType = 0, StartColorStr = #FFFFFF, EndColorStr = #11EEEE );
+    BORDER-LEFT: #002D96 1px solid;
+    CURSOR: pointer;
+    COLOR: black;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #002D96 1px solid;
+}
+.btn_2k3 {
+    BORDER-RIGHT: #bbbab7 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP:#bbbab7 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = #f9f9e4, EndColorStr = #ece4f9 );
+    BORDER-LEFT: #bbbab7 1px solid;
+    CURSOR: pointer;
+    COLOR:#1c1c1c;
+    FONT-FAMILY: "微软雅黑 黑体";
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #bbbab7 1px solid;
+}
+.btn3_mouseout {
+    BORDER-RIGHT: #fcb396 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP:#fcb396 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = #ffffff, EndColorStr = #e6e5b4 );
+    BORDER-LEFT: #fcb396 1px solid;
+    CURSOR: pointer;
+    COLOR:#1c1c1c;
+    FONT-FAMILY: "微软雅黑 黑体";
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #fcb396 1px solid;
+}
+.btn3_mouseover {
+    BORDER-RIGHT: #ffffff 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP:#ffffff 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    FILTER:progid:DXImageTransform.Microsoft.Gradient( GradientType = 0, StartColorStr = #f5f0fb, EndColorStr = #ffffff );
+    BORDER-LEFT: #ffffff 1px solid;
+    CURSOR: pointer;
+    COLOR: #666564;
+    FONT-FAMILY: "微软雅黑 黑体";
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #ffffff 1px solid;
+}
+/*滤镜滤镜滤镜滤镜滤镜*/
+.mytablenoborder {
+    border-collapse:collapse;
+    border:none;
+}
+.mytablenoborder td {
+    border:none;
+    padding:2px;
+}
+.mydetail{
+    cursor:pointer;
+}
+/*BBSBBSBBSBBS*/
+.gridviewheaderbbs {
+    padding:5px 0;
+    font:bold 14px Tahoma, SimSun;
+    color:#FFF;
+    background:url(../images/gridviewtitle1.jpg) repeat-x;
+}
+.gridviewheaderbbs td {
+    padding:5px 5px;
+;
+    font:bold 14px Tahoma, SimSun;
+    color:#FFF;
+    background:url(../images/gridviewtitle1.jpg) repeat-x;
+}
+.bbstable {
+}
+.bbstable tr td a {
+    color:#014f78;
+}
+.listimportant {
+    font-weight:bold;
+}
+gridviewfooter tr td div a {
+    font:normal 12px Tahoma, SimSun;
+}
+.bbsbtn a {
+    margin:0 10px 0 10px;
+}
+.btn_newpost {
+    width:100px;
+    height:25px;
+    background:url(../images/fabiaoxintie.gif) no-repeat;
+    border:none;
+    cursor:pointer;
+}
+.btn_newreply {
+    width:100px;
+    height:25px;
+    background:url(../images/fabiaohuifu.gif) no-repeat;
+    border:none;
+    cursor:pointer;
+}
+.btn_back {
+    width:100px;
+    height:25px;
+    background:url(../images/fanhuishangye.gif) no-repeat;
+    border:none;
+    cursor:pointer;
+}
+.bbsindextitle {
+}
+.bbsindextitle td {
+    background:url(../images/bbsindextitle.jpg) no-repeat;
+    font:bold 12px Tahoma, SimSun;
+    color:#4c1d08;
+    padding:5px 0 5px 50px;
+}
+.bbsindextitle td a {
+    font:bold 14px Tahoma, SimSun;
+    line-height:25px;
+    color:#4c1d08;
+}
+.bbsindextitle td a span {
+    font:bold 14px Tahoma, SimSun;
+    font-style:italic;
+    font-family:SimHei;
+}
+.bbsindextitle .hot {
+    color:#600b00;
+}
+.bbscontenttitle {
+}
+.bbscontenttitle td {
+    background:url(../images/bbscontenttitle.jpg) no-repeat;
+    font:bold 12px Tahoma, SimSun;
+    color:#c1651b;
+    padding:5px 0 5px 50px;
+}
+.bbscontenttitle td a {
+    font:bold 14px Tahoma, SimSun;
+    line-height:25px;
+    color:#c1651b;
+}
+.bbscontenttitle td a span {
+    font:bold 14px Tahoma, SimSun;
+    font-style:italic;
+    font-family:SimHei;
+}
+.bbscontenttitle .hot {
+    color:#600b00;
+}
+
+.bbscontenttitle div {
+    padding:0 0 0 20px;
+    font:bold 12px SimSun;
+    line-height:30px;
+    color:#FFF;
+}
+.myhr {
+    border-top:none;
+    border-right:none;
+    border-bottom:1px dashed gray;
+    border-left:none;
+    height:1px;
+}
+.myhrblue {
+    border:1px solid #f88d4d;
+    height:2px;
+}
+.fltl {
+    float:left;
+}
+.fltr {
+    float:right;
+}
+.bbsindexcontent {
+    color:#666;
+    font:normal 12px SimSun;
+    height:40px;
+    padding:0 0 0 10px;
+    background:#f8f8f8;
+    border-bottom:1px dashed #999;
+}
+.bbsinfo {
+    background:#e8e8e8;
+}
+.bbsinfo td {
+    padding: 5px 5px 5px 10px;
+    font:bold 12px SimSun;
+    color:#666;
+}
+.bbsinfo .bbsfloor {
+    color:#900;
+    padding: 0 5px;
+}
+.bbscontent {
+    padding:5px;
+    font:normal 12px SimSun;
+    line-height:20px;
+    border-bottom:2px solid #f88d4d;
+    color:#444;
+}
+.pagenav {
+    font:normal 12px SimSun;
+    color:#783301;
+}

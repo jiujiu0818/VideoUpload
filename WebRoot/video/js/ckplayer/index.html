@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>团省委内部办公系统-主页</title>
+<link rel=stylesheet type=text/css href="../css/indexNew.css" media="screen"/>
+<link rel=stylesheet type=text/css href="style/if1407.css" media="screen"/>
+<SCRIPT type=text/javascript src="js/yu.js"></SCRIPT>
+<SCRIPT type=text/javascript src="js/tb.js"></SCRIPT>
+
+<style type="text/css">
+<!--
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+    .main_bottom_link3 {}
+-->
+</style>
+
+<!--切换视频模块和图片模块的div显示的js代码-->
+
+<script type="text/javascript">
+function change_div(id){
+  if (id == 'MainPromotionBanner' )
+  {
+     document.getElementById("videoplayer").style.display = 'none' ;
+     document.getElementById("MainPromotionBanner").style.display = 'block' ; 
+  }
+  else 
+  {
+     document.getElementById("MainPromotionBanner").style.display = 'none' ; 
+     document.getElementById("videoplayer").style.display = 'block' ;
+  } 
+}
+</script>
+
+</head>
+
+<body>
+<div class="main">
+    <div class="main_top">
+    	<!--插入顶部按钮--> 
+        <div class="main_top_btnClass">
+       	  <a href="#">
+          	<div class="main_top_btn">
+            	<div class="main_top_btn_img"><img border="0" src="../img/indexTopButtonUnclickIcon1.png"></div>
+                <div class="main_top_btn_text">公文处理</div>
+            </div>
+          </a>
+          <a href="#">
+          	<div class="main_top_btn">
+            	<div class="main_top_btn_img"><img border="0" src="../img/indexTopButtonUnclickIcon2.png"></div>
+                <div class="main_top_btn_text">日常办公</div>
+           	</div>
+          </a>
+          <a href="#">
+          	<div class="main_top_btn">
+            	<div class="main_top_btn_img"><img border="0" src="../img/indexTopButtonUnclickIcon3.png"></div>
+                <div class="main_top_btn_text">信息交流</div>
+            </div>
+          </a>
+          <a href="#">
+          	<div class="main_top_btn">
+            	<div class="main_top_btn_img"><img border="0" src="../img/indexTopButtonUnclickIcon4.png"></div>
+                <div class="main_top_btn_text">个人事务</div>
+            </div>
+          </a>
+          <div class="personnalSetting">
+          	<div id="personnalSetting_Text">ffffffffff</div>
+            <div id="personnalSetting_Button"></div>
+          </div>
+        </div>
+    </div>
+    
+    <div class="main_middle">
+        <div class="main_middle_md">
+        	<!--白色的两根线显示出来又做了一个main_md_backline-->
+        	<div class="main_md_backline">
+                <div class="main_md_left">
+            		<div class="main_md_left_title">代办工作</div>
+                    <div class="main_md_content">
+                	  <p>代办工作1</p>
+                	  <p>代办工作2</p>
+                      <p>代办工作1</p>
+                	  <p>代办工作2</p>
+                    </div>
+                </div>
+                
+                <div class="main_md_middle">
+                    <DIV id="MainPromotionBanner">
+                        <DIV id=SlidePlayer>
+                         <UL class=Slides>
+                              <LI><A href="#" target=_blank><IMG src="images/1.bmp"></A> </LI>
+                              <LI><A href="#" target=_blank><IMG src="images/2.bmp"></A> </LI>
+                              <LI><A href="#" target=_blank><IMG src="images/3.jpg"></A> </LI>
+                              <LI><A href="#" target=_blank><IMG src="images/4.jpg"></A> </	LI>
+                              <LI><A href="#" target=_blank><IMG src="images/5.jpg"></A></LI>
+                          </UL>
+                        </DIV>
+                    </DIV>
+                    <div id="videoplayer">
+                    	<video src="movie.ogg" controls="controls" width="300" height="166">
+                        您的浏览器不支持 video 标签。
+                        </video>
+     
+                    </div>
+                    <SCRIPT type=text/javascript>
+						TB.widget.SimpleSlide.decoration('SlidePlayer', {eventType:'mouse', effect:'scroll'});
+					</SCRIPT>
+                    <div class="main_md_middle_button">
+                        <a href="#" onclick="change_div('videoplayer')"><div class="main_md_middle_button_bt1">视频发布</div></a>
+                        <a href="#" onclick="change_div('MainPromotionBanner')"><div class="main_md_middle_button_bt2">图片发布</div></a>
+                    </div>
+                </div>
+            </div>
+        <div class="main_middle_broadcast">公告公告公告公告</div>
+    </div>
+    
+    <div class="main_botton">
+    	<div class="main_botton_link1">
+        	<a href="#">|&nbsp;&nbsp;全国团讯&nbsp;&nbsp;|</a>
+            <a href="#">&nbsp;&nbsp;各地团讯&nbsp;&nbsp;|</a>
+            <a href="#">&nbsp;&nbsp;重点工作&nbsp;&nbsp;|</a>
+            <a href="#">&nbsp;&nbsp;团省委文件&nbsp;&nbsp;|</a>
+            <a href="#">&nbsp;&nbsp;团情要讯&nbsp;&nbsp;|</a>
+            <a href="#">&nbsp;&nbsp;更多&nbsp;&nbsp;|</a>
+        </div>
+    	<div class="main_botton_link2">
+        	<div class="main_botton_btnClass">
+           	  <div class="main_botton_btn">  <div class="main_botton_btn_text">发文程序</div>  </div>
+              <div class="main_botton_btn">  <div class="main_botton_btn_text">办公用品申领</div>  </div>
+              <div class="main_botton_btn">  <div class="main_botton_btn_text">网络硬盘</div>  </div>
+              <div class="main_botton_btn">  <div class="main_botton_btn_text">短消息群发</div>  </div>
+          	</div>
+             <div class="main_bottom_search">
+                <input id="indexSearchInput"/>
+                <div id="main_botton_search_button"><a href="#"><img border="0" src="../img/indexGo.png"/></a></div>
+             </div>
+     	</div>
+       
+</div>
+ 	<div class="main_bottom_link3">
+    		友情链接》<a href="#">中国青年网</a><a href="#">江苏共青团</a><a href="#">青年文明号</a><a href="#">共青团图书网</a>
+    </div>
+    <div class="copyright">版权所有：共青团江苏省委 联系电话：025-84515959-380</div>
+    </div>
+    
+</body>
+</html>

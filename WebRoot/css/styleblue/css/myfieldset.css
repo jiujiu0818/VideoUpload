@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+/*zifanzifanzifanzifanzifanzifanzifanzifan*/
+.myfieldset-zifan {
+	margin:5px;
+	background:url(../images/myfieldset/zifan/myfieldset_top_L.gif) no-repeat left top;
+}
+.myfieldset-zifan h2 {
+	padding:8px 15px;
+	background:url(../images/myfieldset/zifan/myfieldset_top_R.gif) no-repeat right top;
+	font:bold 14px Tahoma, SimHei, SimSun;
+	color:#FFF;
+}
+.myfieldset-zifan .myfieldset-top-corner {
+	overflow:hidden;
+	height: 8px;
+	background:url(../images/myfieldset/zifan/myfieldset_top_corner_L.gif) no-repeat top left;
+}
+.myfieldset-zifan .myfieldset-top-corner div {
+	height: 8px;
+	background:url(../images/myfieldset/zifan/myfieldset_top_corner_R.gif) no-repeat top right;
+}
+.myfieldset-zifan .myfieldset-content-L {
+	background:url(../images/myfieldset/zifan/myfieldset_border_L.gif) repeat-y left top;
+}
+.myfieldset-zifan .myfieldset-content-R {
+	background:url(../images/myfieldset/zifan/myfieldset_border_R.gif) repeat-y right top;
+}
+.myfieldset-zifan .myfieldset-content {
+	background:#FFF;
+	margin:0px 4px;
+	overflow:auto;
+}
+.myfieldset-zifan .myfieldset-bottom-corner {
+	overflow:hidden;
+	height:9px;
+	background:url(../images/myfieldset/zifan/myfieldset_bottom_L.gif) no-repeat top left;
+}
+.myfieldset-zifan .myfieldset-bottom-corner div {
+	height:9px;
+	background:url(../images/myfieldset/zifan/myfieldset_bottom_R.gif) no-repeat top right;
+}
+/*zifan矩形*/
+.myfieldset-zifan-nocorner {
+	margin:5px;
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_top_L.gif) no-repeat left top;
+}
+.myfieldset-zifan-nocorner h2 {
+	padding:6px 15px;
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_top_R.gif) no-repeat right top;
+	font:bold 14px Tahoma, SimHei, SimSun;
+	color:#FFF;
+}
+.myfieldset-zifan-nocorner .myfieldset-top-corner {
+	overflow:hidden;
+	height: 8px;
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_top_corner_L.gif) no-repeat top left;
+}
+.myfieldset-zifan-nocorner .myfieldset-top-corner div {
+	height: 8px;
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_top_corner_R.gif) no-repeat top right;
+}
+.myfieldset-zifan-nocorner .myfieldset-content-L {
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_border_L.gif) repeat-y left top;
+}
+.myfieldset-zifan-nocorner .myfieldset-content-R {
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_border_R.gif) repeat-y right top;
+}
+.myfieldset-zifan-nocorner .myfieldset-content {
+	background:#FFF;
+	margin:0px 4px;
+	overflow:auto;
+}
+.myfieldset-zifan-nocorner .myfieldset-bottom-corner {
+	overflow:hidden;
+	height:9px;
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_bottom_L.gif) no-repeat top left;
+}
+.myfieldset-zifan-nocorner .myfieldset-bottom-corner div {
+	height:9px;
+	background:url(../images/myfieldset/zifan-nocorner/myfieldset_bottom_R.gif) no-repeat top right;
+}
+/*zifan无顶部*/
+.myfieldset-zifan-noheader {
+	margin:5px;
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_top_L.gif) no-repeat left top;
+}
+.myfieldset-zifan-noheader h2 {
+	padding:6px 15px;
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_top_R.gif) no-repeat right top;
+	font:bold 14px Tahoma, SimHei, SimSun;
+	color:#FFF;
+}
+.myfieldset-zifan-noheader .myfieldset-top-corner {
+	overflow:hidden;
+	height: 8px;
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_top_corner_L.gif) no-repeat top left;
+}
+.myfieldset-zifan-noheader .myfieldset-top-corner div {
+	height: 8px;
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_top_corner_R.gif) no-repeat top right;
+}
+.myfieldset-zifan-noheader .myfieldset-content-L {
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_border_L.gif) repeat-y left top;
+}
+.myfieldset-zifan-noheader .myfieldset-content-R {
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_border_R.gif) repeat-y right top;
+}
+.myfieldset-zifan-noheader .myfieldset-content {
+	background:#FFF;
+	margin:0px 4px;
+	overflow:auto;
+}
+.myfieldset-zifan-noheader .myfieldset-bottom-corner {
+	overflow:hidden;
+	height:9px;
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_bottom_L.gif) no-repeat top left;
+}
+.myfieldset-zifan-noheader .myfieldset-bottom-corner div {
+	height:9px;
+	background:url(../images/myfieldset/zifan-noheader/myfieldset_bottom_R.gif) no-repeat top right;
+}
+/*zifan-blue*/
+.myfieldset-zifan-blue {
+	margin:5px;
+	background:url(../images/myfieldset/zifan-blue/myfieldset_top_L.gif) no-repeat left top;
+}
+.myfieldset-zifan-blue h2 {
+	padding:6px 15px;
+	background:url(../images/myfieldset/zifan-blue/myfieldset_top_R.gif) no-repeat right top;
+	font:bold 14px Tahoma, SimHei, SimSun;
+	color:#FFF;
+}
+.myfieldset-zifan-blue .myfieldset-top-corner {
+	overflow:hidden;
+	height: 8px;
+	background:url(../images/myfieldset/zifan-blue/myfieldset_top_corner_L.gif) no-repeat top left;
+}
+.myfieldset-zifan-blue .myfieldset-top-corner div {
+	height: 8px;
+	background:url(../images/myfieldset/zifan-blue/myfieldset_top_corner_R.gif) no-repeat top right;
+}
+.myfieldset-zifan-blue .myfieldset-content-L {
+	background:url(../images/myfieldset/zifan-blue/myfieldset_border_L.gif) repeat-y left top;
+}
+.myfieldset-zifan-blue .myfieldset-content-R {
+	background:url(../images/myfieldset/zifan-blue/myfieldset_border_R.gif) repeat-y right top;
+}
+.myfieldset-zifan-blue .myfieldset-content {
+	background:#FFF;
+	margin:0px 4px;
+	overflow:auto;
+}
+.myfieldset-zifan-blue .myfieldset-bottom-corner {
+	overflow:hidden;
+	height:9px;
+	background:url(../images/myfieldset/zifan-blue/myfieldset_bottom_L.gif) no-repeat top left;
+}
+.myfieldset-zifan-blue .myfieldset-bottom-corner div {
+	height:9px;
+	background:url(../images/myfieldset/zifan-blue/myfieldset_bottom_R.gif) no-repeat top right;
+}
+/*1pxborder*/
+.myfieldset-border {
+	margin:5px;
+	background:url(../images/myfieldset/border/myfieldset_top_L.gif) no-repeat left top;
+}
+.myfieldset-border h2 {
+	padding:6px 15px 2px 15px;
+	background:url(../images/myfieldset/border/myfieldset_top_R.gif) no-repeat right top;
+	font:bold 14px Tahoma, SimHei, SimSun;
+	color:#FFF;
+}
+.myfieldset-border .myfieldset-top-corner {
+	overflow:hidden;
+	height: 8px;
+	background:url(../images/myfieldset/border/myfieldset_top_corner_L.gif) no-repeat top left;
+}
+.myfieldset-border .myfieldset-top-corner div {
+	height: 8px;
+	background:url(../images/myfieldset/border/myfieldset_top_corner_R.gif) no-repeat top right;
+}
+.myfieldset-border .myfieldset-content-L {
+	background:url(../images/myfieldset/border/myfieldset_border_L.gif) repeat-y left top;
+}
+.myfieldset-border .myfieldset-content-R {
+	background:url(../images/myfieldset/border/myfieldset_border_R.gif) repeat-y right top;
+}
+.myfieldset-border .myfieldset-content {
+	background:#FFF;
+	margin:0px 4px;
+	overflow:auto;
+}
+.myfieldset-border .myfieldset-bottom-corner {
+	overflow:hidden;
+	height:9px;
+	background:url(../images/myfieldset/border/myfieldset_bottom_L.gif) no-repeat top left;
+}
+.myfieldset-border .myfieldset-bottom-corner div {
+	height:9px;
+	background:url(../images/myfieldset/border/myfieldset_bottom_R.gif) no-repeat top right;
+}

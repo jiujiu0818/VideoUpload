@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans>
+  	<form-bean name="videoForm" type="com.green.form.VideoForm"/>
+  </form-beans>
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings>
+  	<action path="/video" type="com.green.action.VideoAction" name="videoForm" parameter="method" scope="request">
+            <forward name="videoList" path="/video/videoList.jsp"/>
+            <forward name="queryVideos" path="/video.do?method=queryVideos"/>
+    </action>
+  </action-mappings>
+  <message-resources parameter="com.green.struts.ApplicationResources" />
+</struts-config>
+
